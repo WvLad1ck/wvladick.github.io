@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;   
+    
+}
+body {
+    background: linear-gradient(rgb(165, 24, 235), rgb(157, 0, 255)) ;
+    
+}
+head {
+    background-color: rgb(255, 222, 222);
+
+}
+
+
+header {
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    height: 110px;
+    width: 970px;
+    position: relative;
+    left: calc(50% - 585px);
+    margin-top: 20px;
+    background-color: rgb(227, 198, 255);
+    box-shadow: 0 0 70px purple;
+    
+}
+header h1 {
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 0 0 40px purple;
+    color: purple;
+    position: relative;
+    bottom: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    top: 90%;
+    background-color: rgb(202, 202, 202);
+    border: 5px solid black ;
+    border-bottom: 20px solid black;
+    background-attachment: fixed;
+    float: left;
+    
+   
+}
+
+main {
+    height: 800px;
+    width: 850px;
+   
+    margin: 20px;
+    float: left;
+    position: relative;
+    left: 550px;
+    padding: 30px;
+    
+
+
+}
+
+aside {
+    height: 850px;
+    width: 300px;
+    border: 5px solid black ;
+    margin: 20px;
+    float: right;
+    position: fixed;
+    left: 1500px;
+    top: 30px;
+
+}
+
+#photos {
+    height: 1220px;
+    width: 500px;
+     /* border: 5px solid black ;  */
+    margin: 20px;
+    float: left;
+    position: fixed;
+    right: 1320px;
+
+} 
+
+#first {
+    border-radius: 100%;
+    margin: 20px;
+}
+#second {
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#contacts {
+    list-style: none;
+    display: block;
+    width: 100%;
+    text-align: right;
+    position: fixed;
+    right: 40px;
+    margin: 20px 10px;
+    float: left;
+    
+}
+
+#contacts li {
+    display: inline;
+    border: 5px solid black;
+    position: relative;
+    top: 10px;
+    width: 70px;
+    height: 50px;
+    margin: 20px;
+    padding: 20px 65px;
+    text-align: center;
+    font-size: 24px; 
+    border-radius: 15px;
+}
+
+#youtube:hover {
+    background-color: red;
+}
+#vk:hover {
+    background-color: blue;
+}
+#tg:hover {
+    background-color: rgb(53, 123, 255);
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: dashed;
+}
+ a:hover {
+    color: rgb(255, 255, 255);
+} 
+
+#navig {
+    height: 80px;
+    width:260px;
+    /* border: 7px solid rgb(189, 180, 180); */
+    /* padding-top: 5px; */
+    padding-bottom: 5px;
+    position: relative;
+    left: 19px;
+    margin-top: 20px;
+}
+
+#navig h3 {
+    color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 0, 217); */
+    background: linear-gradient(rgb(143, 41, 211), rgb(193, 30, 211));
+    box-shadow: 0 0 50px rgb(122, 0, 112);
+    border-radius: 30px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    
+}
+
+#photo {
+    list-style: none;
+
+}
+
+#photo li {
+    
+    margin: 30px;
+
+    /* border: 5px solid rgb(150, 58, 236); */
+    background-color: rgb(185, 119, 246);
+    padding: 20px;
+    padding-right: 25px;
+    width: 170px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 25px rgb(150, 58, 236);
+    position: relative;
+    right: 10px;
+    top: 30px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#photo li:hover {
+    
+    margin: 30px;
+
+    /* border: 5px solid rgb(150, 58, 236); */
+    background-color: rgb(185, 119, 246);
+    padding: 20px;
+    padding-right: 25px;
+    width: 200px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 65px rgb(150, 58, 236);
+    position: relative;
+    right: 20px;
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+#photo a {
+    color: aliceblue;
+    font-style:italic;
+    text-shadow: -5px 10px 10px rgb(0, 0, 0);
+}
+#information {
+    border: 4px solid black;
+    background: repeating-linear-gradient(purple, rgb(239, 62, 62));
+    border-radius: 30px;
+    margin-top: 10px;
+    height: 260px;
+}
+
+#home  {
+    background-color: aquamarine;
+}
+#first {
+    border: 7px solid white;
+}
+#first:hover {
+    transform: rotate(5deg);
+    scale: 1.1;
+    box-shadow: 0 0 50px black;
+}
+#main p {
+    color: aliceblue;
+    font-size: 25px;
+}
+main h1 {
+    color: rgb(43, 0, 83);
+    font-size: 35px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
